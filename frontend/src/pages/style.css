@@ -6,10 +6,10 @@
 .box {
     position: absolute;
     width: 655px;
-    height: 1500px;
+    height: 620px;
     left: 400px;
     top: 120px;
-    background: #FFEBE2;
+    background: #BB6B60;
     box-shadow: inset 0px 3px 13px rgba(86, 0, 0, 0.08);
     border-radius: 12px;
 }
@@ -55,4 +55,9 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+.quote{
+    padding-left: 17%;
+    padding-top: 20px;
 }

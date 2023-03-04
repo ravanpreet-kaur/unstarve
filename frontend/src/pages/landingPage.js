@@ -8,36 +8,38 @@ import { useState } from 'react';
 
 export function LandingPage() {
     const [distance, setDistance] = useState('Close-by');
-    const [cuisine, setCuisine]  = useState('Indian');
+    const [cuisine, setCuisine] = useState('Indian');
     const [price, setPrice] = useState('200');
 
-    function returnDistance(e){
+    const returnDistance = (e) => {
         setDistance(e.target.value)
         console.log(distance)
     }
 
-    function returnCuisine(e){
+    const returnCuisine = (e) => {
         setCuisine(e.target.value)
         console.log(cuisine)
     }
 
-    function returnPrice(e){
+    const returnPrice = (e) => {
         setPrice(e.target.value)
         console.log(price)
     }
 
     return (
-        <div className='LandingPage' style={{backgroundImage: `url(${background})`, 
-                                            backgroundSize: 'fit',
-                                            height: "200vh"}}>
+        <div className='LandingPage' style={{
+            backgroundImage: `url(${background})`,
+            backgroundSize: 'fit',
+            height: "100vh"
+        }}>
             <div className='heading'>
-                <Typography style= {{color: 'white'}} variant="h4" component="h4">
+                <Typography style={{ color: 'white' }} variant="h4" component="h4">
                     UnStarve
                 </Typography>
-                <Typography style= {{color: 'white'}} variant="h6" component="h6">
+                <Typography style={{ color: 'white' }} variant="h6" component="h6">
                     No more starving from indecisiveness
                 </Typography>
-                <Button variant="outlined" size="medium" style={{ borderRadius: 20, top:-70, left: 600, color: 'white', borderColor: 'white' }}>Log back in</Button>
+                {/* <Button variant="outlined" size="medium" style={{ borderRadius: 20, top:-70, left: 600, color: 'white', borderColor: 'white' }}>Log back in</Button> */}
             </div>
             <div className='box'>
                 <div className='textMessages'>
@@ -47,11 +49,11 @@ export function LandingPage() {
                         <div className='ques'>
                             How far do you want to travel?
                             <ButtonGroup size="small" variant="outlined" aria-label="outlined button group">
-                                <Button style={{ borderTopLeftRadius: 20, borderBottomLeftRadius: 20, color: 'black', borderColor: 'black'}} onClick={returnDistance} value={'Close-by'}>Close-by</Button>
-                                <Button style= {{color: 'black', borderColor: 'black'}} onClick={returnDistance} value={'Lil further'}>Lil further</Button>
-                                <Button style= {{color: 'black', borderColor: 'black'}} onClick={returnDistance} value={'Ready to travel'}>Ready to travel</Button>
-                                <Button style= {{color: 'black', borderColor: 'black'}} onClick={returnDistance} value={'Very Far'}>Very Far</Button>
-                                <Button style={{ borderTopRightRadius: 20, borderBottomRightRadius: 20, color: 'black', borderColor: 'black'}} onClick={returnDistance} value={'Earth'}>Earth</Button>
+                                <Button style={{ borderTopLeftRadius: 20, borderBottomLeftRadius: 20, color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Close-by'}>Close-by</Button>
+                                <Button style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Lil further'}>Lil further</Button>
+                                <Button style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Ready to travel'}>Ready to travel</Button>
+                                <Button style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Very Far'}>Very Far</Button>
+                                <Button style={{ borderTopRightRadius: 20, borderBottomRightRadius: 20, color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Earth'}>Earth</Button>
                             </ButtonGroup>
                         </div>
                         <div className='ques'>
@@ -72,14 +74,15 @@ export function LandingPage() {
                             How much do you plan on spending?
                             <ButtonGroup size="medium" variant="outlined" aria-label="outlined button group">
                                 <Button style={{ borderTopLeftRadius: 20, borderBottomLeftRadius: 20, color: 'black', borderColor: 'black' }} onClick={returnPrice} value={'200'}>200</Button>
-                                <Button style= {{color: 'black', borderColor: 'black'}} onClick={returnPrice} value={'200-500'}>200-500</Button>
-                                <Button style= {{color: 'black', borderColor: 'black'}} onClick={returnPrice} value={'500-1000'}>500-1000</Button>
-                                <Button style= {{color: 'black', borderColor: 'black'}} onClick={returnPrice} value={'1000-2000'}>1000-2000</Button>
+                                <Button style={{ color: 'black', borderColor: 'black' }} onClick={returnPrice} value={'200-500'}>200-500</Button>
+                                <Button style={{ color: 'black', borderColor: 'black' }} onClick={returnPrice} value={'500-1000'}>500-1000</Button>
+                                <Button style={{ color: 'black', borderColor: 'black' }} onClick={returnPrice} value={'1000-2000'}>1000-2000</Button>
                                 <Button style={{ borderTopRightRadius: 20, borderBottomRightRadius: 20, color: 'black', borderColor: 'black' }} onClick={returnPrice} value={'2000+'}>2000+</Button>
                             </ButtonGroup>
                         </div>
                     </div>
-                    <div className='msg' style={{ height: '64px', order: 3 }}>
+
+                    {/* <div className='msg' style={{ height: '64px', order: 3 }}>
                         Okay, so you like a close-by restaurant with Indian cuisine which is moderately expensive.
                     </div>
                     <div className='msg' style={{ height: '42px', order: 4 }}>
@@ -90,7 +93,12 @@ export function LandingPage() {
                     </div>
                     <div className='msg' style={{ height: '250px', order: 5 }}>
                         <ActionCard restrauntName='testPhase' distance='5' price='600'/>
-                    </div>
+                    </div> */}
+
+                    <Button variant="contained" sx={{ borderRadius: 10, backgroundColor: '#FFCB68', width: 570, height: 40, color: 'black', border: 'solid', borderWidth: 1, fontWeight: 'bold', order: 3 }}>Give me suggestions</Button>
+                    <Typography className="quote" style={{ color: 'white', fontStyle:'italic', order: 4}} variant="body1" component="body1">
+                        “Nothing brings people together like good food”
+                    </Typography>
                 </div>
             </div>
         </div>
