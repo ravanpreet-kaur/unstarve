@@ -1,19 +1,14 @@
-require('dotenv').config()
-console.log(process.env)
-const { Sequelize } = require("sequelize-cockroachdb");
-var f = require('./recommender')
-const sequelize = new Sequelize(process.env.DATABASE_URL);
-
-(async () => {
-  try {
-    const [results, metadata] = await sequelize.query("select now()");
-    for(x in f.data){
-      console.log(x)
-    }
-    console.log(results);
-  } catch (err) {
-    console.error("error executing query:", err);
-  } finally {
-    await sequelize.close();
-  }
-})();
+const { default: sequelize } = require('./conn');
+const express = require('express');
+const app = express()
+const port = process.env.PORT;
+const host = '0.0.0.0';
+const cors = require('cors')
+app.use(cors())
+const Restaurants = require('./restaraunts')
+var bodyParser = require("body-parser");
+const { data } = require('./recommender');
+app.use(bodyParser.urlencoded({ extended: false }));
+app.listen(port, host, () => { 
+    console.log(`Server started at ${host} port ${port}`);
+});
