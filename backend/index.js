@@ -1,12 +1,15 @@
 require('dotenv').config()
 console.log(process.env)
 const { Sequelize } = require("sequelize-cockroachdb");
-
+var f = require('./recommender')
 const sequelize = new Sequelize(process.env.DATABASE_URL);
 
 (async () => {
   try {
-    const [results, metadata] = await sequelize.query("CREATE TABLE users (name varchar(255), age integer, phone_number varchar(20),lat float, longit float ,email_id varchar(255),preferences varchar(255)[])");
+    const [results, metadata] = await sequelize.query("select now()");
+    for(x in f.data){
+      console.log(x)
+    }
     console.log(results);
   } catch (err) {
     console.error("error executing query:", err);
