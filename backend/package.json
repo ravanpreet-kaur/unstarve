@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "cohere-ai": "^6.0.0",
     "cors": "^2.8.5",
     "csv": "^6.2.8",
     "dotenv": "^16.0.3",
