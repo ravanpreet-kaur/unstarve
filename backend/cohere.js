@@ -29,13 +29,5 @@ const cohere = require("cohere-ai");
     catch(err){
         console.log(err)
     }
-    /*
-    {
-      statusCode: 200,
-      body: {
-        text: "Eldorado, the anointed monarchs of the ancient world and the ruling family were divided into three kingdoms, each of which was ruled by an individual leader."
-      } 
-    }
-    */
   })();
   

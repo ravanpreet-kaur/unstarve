@@ -16,6 +16,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "sequelize": "^6.29.0",
-    "sequelize-cockroachdb": "^6.0.5"
+    "sequelize-cockroachdb": "^6.0.5",
+    "twilio": "^4.8.0"
   }
 }
