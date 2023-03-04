@@ -1,0 +1,550 @@
+name,latitude,longitude,cuisine,price
+Kilian Stuba,47.34858,10.17114,Creative,$$$$$
+Pfefferschiff,47.83787,13.07917,Classic cuisine,$$$$$
+Esszimmer,47.80685,13.03409,Creative,$$$$$
+Carpe Diem,47.80001,13.04006,Market cuisine,$$$$$
+Edvard,48.216503,16.36852,Modern cuisine,$$$$
+Das Loft,48.21272,16.37931,Modern cuisine,$$$$$
+Pramerl & the Wolf,48.20945,16.37174,Creative,$$$$$
+Walter Bauer,48.20923,16.37672,Classic cuisine,$$$$$
+SHIKI,48.204067,16.37098,Japanese,$$$$$
+Tian,48.20513,16.37456,Vegetarian,$$$$$
+aend,48.18957,16.34115,Modern cuisine,$$$$$
+Le Ciel by Toni Mörwald,48.20209,16.37156,Classic cuisine,$$$$$
+Chez TJ,37.39468,-122.08044,Contemporary,$$$$
+Protégé,37.427853,-122.14362,Contemporary,$$$
+Madera,37.42014,-122.21151,Contemporary,$$$
+The Village Pub,37.42897,-122.25178,Contemporary,$$$
+Plumed Horse,37.25648,-122.03537,Contemporary,$$$$
+Wakuriya,37.52114,-122.3366,Japanese,$$$$
+Sushi Yoshizumi,37.565075,-122.3211,Japanese,$$$$
+Rasa,37.577522,-122.345985,Indian,$$
+Maum,37.72669,-122.414215,Korean,$$$$
+Al's Place,37.748924,-122.42013,Californian,$$
+Aster,37.755054,-122.423134,Californian,$$$
+Omakase,37.77077,-122.40298,Japanese,$$$$
+Commonwealth,37.761395,-122.41946,Contemporary,$$
+Luce,37.78194,-122.40498,Contemporary,$$$
+Birdsong,37.779495,-122.41048,American,$$$$
+In Situ,37.785633,-122.40113,International,$$$$
+Mourad,37.78695,-122.39987,Moroccan,$$$
+Hashiri,37.783062,-122.40754,Japanese,$$$$
+Angler,37.793167,-122.39213,Contemporary,$$$$
+Rich Table,37.774914,-122.42271,Contemporary,$$$
+Kin Khao,37.785267,-122.40951,Thai,$$
+Michael Mina,37.79349,-122.399574,Contemporary,$$$$
+Sons & Daughters,37.79037,-122.40917,Contemporary,$$$$
+Mister Jiu's,37.79371,-122.406654,Chinese,$$$
+Nico,37.795803,-122.40333,Contemporary,$$$
+jū-ni,37.77672,-122.43886,Japanese,$$$$
+Keiko à Nob Hill,37.793106,-122.41445,Fusion,$$$$
+The Progress,37.78371,-122.43282,Californian,$$$
+State Bird Provisions,37.783737,-122.43283,American,$$
+Octavia,37.787857,-122.42709,Californian,$$$
+SPQR,37.78732,-122.43375,Italian,$$$
+Lord Stanley,37.79592,-122.42208,Californian,$$$
+Kinjo,37.79699,-122.422005,Japanese,$$$$
+Sorrel,37.788334,-122.44614,Californian,$$$
+Gary Danko,37.80599,-122.42066,Contemporary,$$$$
+Bar Crenn,37.798435,-122.43581,French,$$$
+Spruce,37.78772,-122.45264,Californian,$$$
+Wako,37.783035,-122.461525,Japanese,$$$$
+Madcap,37.974712,-122.56168,Contemporary,$$$$
+Aubergine,36.55406,-121.924355,Contemporary,$$$$
+Kenzo,38.29924,-122.28928,Japanese,$$$$
+La Toque,38.30351,-122.28349,Contemporary,$$$$
+Bouchon,38.40258,-122.3619,French,$$$
+Auberge du Soleil,38.49199,-122.40534,Californian,$$$$
+Farmhouse Inn & Restaurant,38.49039,-122.8835,Californian,$$$$
+The Kitchen,38.58894,-121.41424,Contemporary,$$$$
+Madrona Manor,38.60428,-122.88647,Contemporary,$$$$
+Harbor House,39.135876,-123.719444,Californian,$$$$
+Shin Sushi,34.15784,-118.49415,Japanese,$$$
+Rustic Canyon,34.024952,-118.49118,Californian,$$$
+Dialogue,34.01679,-118.49748,Contemporary,$$$$
+Kato,34.041683,-118.460915,Asian,$$$
+CUT,34.067036,-118.401024,Steakhouse,$$$$
+Nozawa Bar,34.0683,-118.39849,Japanese,$$$$
+Shunji,34.028496,-118.45195,Japanese,$$$$
+Maude,34.064346,-118.39904,Contemporary,$$$$
+Mori Sushi,34.033398,-118.44229,Japanese,$$$$
+Trois Mec,34.084255,-118.33851,Contemporary,$$$$
+Osteria Mozza,34.08342,-118.338974,Italian,$$$
+Kali,34.083443,-118.32455,Californian,$$$
+Le Comptoir,34.06354,-118.30057,Californian,$$$$
+Q Sushi,34.046883,-118.255844,Japanese,$$$$
+Shibumi,34.044155,-118.256134,Japanese,$$$$
+Hayato,34.03311,-118.24265,Japanese,$$$$
+Bistro Na's,34.104412,-118.07159,Chinese,$$
+Orsa & Winston,33.92145,-118.275406,Fusion,$$$$
+Taco María,33.69475,-117.924965,Mexican,$$$
+Hana re,33.67759,-117.886566,Japanese,$$$$
+Addison,32.939903,-117.20013,Contemporary,$$$$
+Parachute,41.94483,-87.70638,Fusion,$$
+Goosefoot,41.96856,-87.69596,Contemporary,$$$$
+Elizabeth,41.969555,-87.688736,Contemporary,$$$$
+EL Ideas,41.863,-87.68686,Contemporary,$$$$
+Band of Bohemia,41.967308,-87.67477,Gastropub,$$$
+Schwa,41.90888,-87.66792,Contemporary,$$$$
+Temporis,41.898907,-87.66725,Contemporary,$$$$
+Entente,41.93721,-87.6652,Contemporary,$$$
+Elske,41.884426,-87.66071,Contemporary,$$$$
+Dusek's (Board & Beer),41.857853,-87.65757,Gastropub,$$
+Roister,41.886658,-87.65187,Contemporary,$$$
+Boka,41.91363,-87.64806,Contemporary,$$$
+Blackbird,41.88423,-87.64356,Contemporary,$$$
+Sepia,41.88394,-87.64247,American,$$$
+North Pond,41.9296,-87.63762,Contemporary,$$$
+Everest,41.87597,-87.63212,French,$$$$
+Topolobampo,41.89047,-87.63085,Mexican,$$$$
+Spiaggia,41.90062,-87.62457,Italian,$$$$
+Monte,45.08279,13.631168,Creative,$$$$$
+Draga di Lovrana,45.275867,14.251401,Modern cuisine,$$$$$
+Noel,45.811054,15.988205,Modern cuisine,$$$$$
+Pelegrini,43.73603,15.888903,Modern cuisine,$$$$$
+360º,42.641563,18.111523,Modern cuisine,$$$$$
+Field,50.0919,14.42193,Modern cuisine,$$$$$
+La Degustation Bohême Bourgeoise,50.09115,14.42511,Modern cuisine,$$$$$
+Gastromé,56.15788,10.20937,Modern cuisine,$$$
+Domestic,56.15893,10.212132,Modern cuisine,$$$
+Substans,56.15415,10.20372,Modern cuisine,$$$
+Frederikshøj,56.12497,10.208638,Creative,$$$$
+Me‚Mu,55.70901,9.53302,Modern cuisine,$$$
+Ti Trin Ned,55.56659,9.752689,Modern cuisine,$$$
+Slotskøkkenet,55.771236,11.390805,Creative,$$$$
+Søllerød Kro,55.81325,12.49548,Modern cuisine,$$
+Jordnær,55.748226,12.541014,Danish,$$$
+Relæ,55.693233,12.543222,Modern cuisine,$$
+Kiin Kiin,55.69188,12.55754,Thai,$$
+formel B,55.67031,12.53798,Modern cuisine,$$
+Kokkeriet,55.68768,12.58492,Modern cuisine,$$$
+Clou,55.68342,12.58497,Modern cuisine,$$$$
+Marchal,55.68034,12.58508,Modern cuisine,$$
+Kong Hans Kælder,55.6787,12.584003,Classic French,$$$$
+Stud!o at The Standard,55.67799,12.59191,Creative,$$$
+108,55.67785,12.5980835,Modern cuisine,$$$
+Era Ora,55.673004,12.591292,Italian,$$
+Alouette,55.66265,12.57634,Modern cuisine,$$$
+Frederiksminde,55.12417,12.04623,Creative,$$$
+Kadeau Bornholm,55.00457,14.969216,Creative,$$$$
+Ask,60.17236,24.95648,Modern cuisine,$$$
+Grön,60.16446,24.93308,Finnish,$$$
+Demo,60.164806,24.941635,Modern cuisine,$$$
+Olo,60.16616,24.947704,Modern cuisine,$$$
+Palace,60.16556,24.95256,Modern cuisine,$$$
+Ora,60.157578,24.942947,Modern cuisine,$$$
+Botrini's,38.02318,23.79377,Mediterranean,$$$$$
+Varoulko Seaside,37.937378,23.658577,Seafood,$$$$$
+Hytra,37.95818,23.71895,Modern cuisine,$$$$$
+Loaf On,22.379858,114.27188,Cantonese,$$
+Lei Garden (Kwun Tong),22.312672,114.22482,Cantonese,$
+Tim Ho Wan (Sham Shui Po),22.32805,114.16665,Dim Sum,$
+Lei Garden (Mong Kok),22.320219,114.17133,Cantonese,$
+Ming Court,22.318314,114.16933,Cantonese,$$$
+Yat Tung Heen (Jordan),22.308014,114.17147,Cantonese,$$
+Fu Ho (Tsim Sha Tsui),22.3022,114.17194,Cantonese,$$
+Shang Palace,22.297325,114.177155,Cantonese,$$$
+IM Teppanyaki & Wine,22.280807,114.19211,Teppanyaki,$$
+Ah Yat Harbour View (Tsim Sha Tsui),22.296984,114.17197,Cantonese,$$
+Rech,22.293434,114.174034,Seafood,$$$$
+Spring Moon,22.294943,114.17182,Cantonese,$$$
+Imperial Treasure Fine Chinese Cuisine,22.296177,114.170006,Cantonese,$$
+Sushi Tokami,22.296112,114.16916,Sushi,$$$$$
+Tosca,22.30357,114.16007,Italian,$$$
+Épure,22.29583,114.169304,French,$$$
+Yee Tung Heen,22.282295,114.184135,Cantonese,$$
+Yè Shanghai (Tsim Sha Tsui),22.295143,114.168236,Shanghainese,$
+Ho Hung Kee,22.280058,114.18364,Noodles and congee,$
+Jardin de Jade (Wan Chai),22.28025,114.17716,Shanghainese,$$
+Zhejiang Heen,22.2787,114.17763,Shanghainese,$$
+Takumi by Daisuke Mori,22.276512,114.17718,Innovative,$$$$$
+Kam's Roast Goose,22.277693,114.175385,Cantonese Roast Meats,$
+Pang's Kitchen,22.26921,114.18452,Cantonese,$
+Xin Rong Ji,22.278013,114.17273,Taizhou,$$$
+Qi (Wan Chai),22.276443,114.17126,Sichuan,$
+Man Wah,22.282213,114.15951,Cantonese,$$$$
+Summer Palace,22.277136,114.1643,Cantonese,$$$
+Octavium,22.282587,114.1572,Italian,$$$
+Arbor,22.283146,114.15542,Innovative,$$$
+VEA,22.284931,114.15313,Innovative,$$$$$
+Mandarin Grill + Bar,22.281048,114.1574,European contemporary,$$$$
+Yat Lok,22.28226,114.155655,Cantonese Roast Meats,$
+Guo Fu Lou,22.278313,114.16034,Cantonese,$$$
+Celebrity Cuisine,22.284334,114.15312,Cantonese,$$
+Sushi Wadatsumi,22.281038,114.15646,Sushi,$$$
+Arcane,22.280624,114.15682,European contemporary,$$$
+Duddell's,22.28008,114.157364,Cantonese,$$$
+Beefbar,22.27982,114.15752,Steakhouse,$$
+New Punjab Club,22.28005,114.15525,Indian,$$
+Kaiseki Den by Saotome,22.285713,114.147865,Japanese,$$$$$
+Belon,22.281662,114.152405,French,$$$
+Tate,22.280996,114.15276,Innovative,$$$$$
+The Ocean,22.235146,114.198524,French,$$$$$
+Costes Downtown,47.50113,19.048595,Modern cuisine,$$$$
+Borkonyha Winekitchen,47.49953,19.052391,Modern cuisine,$$$$
+Stand,47.500244,19.059624,Modern cuisine,$$$
+Babel,47.492603,19.05256,Modern cuisine,$$$$$
+Costes,47.48873,19.061779,Modern cuisine,$$$$$
+The Kitchen,22.191442,113.543,Steakhouse,$$$
+Tim's Kitchen,22.189898,113.5439,Cantonese,$$
+Wing Lei,22.188028,113.54578,Cantonese,$$
+King,22.190178,113.54028,Cantonese,$
+Ying,22.161234,113.555405,Cantonese,$$
+Shinji by Kanesaka,22.149635,113.56397,Sushi,$$$$
+The Golden Peacock,22.148178,113.56335,Indian,$
+Zi Yat Heen,22.145418,113.56152,Cantonese,$$
+8 1/2 Otto e Mezzo - Bombana,22.14918,113.55393,Italian,$$$
+Pearl Dragon,22.140524,113.56256,Cantonese,$$$
+Lai Heen,22.148754,113.551926,Cantonese,$$
+FAGN,63.43392,10.39628,Modern cuisine,$$$$
+Credo,63.43391,10.39631,Creative,$$$$
+RE-NAA,58.972088,5.732877,Creative,$$$$
+Sabi Omakase,58.969936,5.7433133,Sushi,$$$$
+Galt,59.91661,10.71369,Modern cuisine,$$$
+Kontrast,59.92355,10.75106,Scandinavian,$$$
+Statholdergaarden,59.90937,10.74305,Classic cuisine,$$$$
+Del Posto,40.74327,-74.0077,Italian,$$$$
+Le Grill de Joël Robuchon,40.742897,-74.0077,French,$$$$
+L'Appart,40.711903,-74.01544,French,$$$$
+Okuda,40.743793,-74.00633,Japanese,$$$$
+Wallsé,40.73538,-74.00814,Austrian,$$$$
+Jeju Noodle Bar,40.732952,-74.00744,Korean,$$
+Sushi Nakazawa,40.731716,-74.00451,Japanese,$$$$
+Kosaka,40.738316,-74.00137,Japanese,$$$$
+Bâtard,40.719616,-74.00589,Contemporary,$$$$
+Hirohisa,40.72452,-74.003006,Japanese,$$$
+Blue Hill,40.7321,-73.9996,American,$$$$
+ZZ's Clam Bar,40.727646,-74.00046,Seafood,$$$$
+Babbo,40.73233,-73.99916,Italian,$$$$
+Carbone,40.727966,-74.00017,Italian,$$$$
+Le Coucou,40.719162,-74.00001,French,$$$
+Aldea,40.73885,-73.99366,Mediterranean,$$$$
+Cote,40.73778,-73.99375,Korean,$$$
+Bouley at Home,40.74114,-73.99242,Contemporary,$$$
+Gotham Bar and Grill,40.73417,-73.99379,American,$$$$
+Nix,40.733166,-73.993515,Vegetarian,$$$
+Junoon,40.74325,-73.99077,Indian,$$$$
+NoMad,40.74497,-73.98883,Contemporary,$$$$
+The Musket Room,40.723915,-73.99375,Contemporary,$$$
+Uncle Boons,40.721203,-73.99441,Thai,$$
+Noda,40.74497,-73.988075,Japanese,$$$$
+Gramercy Tavern,40.73849,-73.98868,Contemporary,$$$$
+The Clocktower,40.7414,-73.987595,Contemporary,$$$
+Ai Fiori,40.75013,-73.98357,Italian,$$$$
+Casa Mono,40.73595,-73.98706,Spanish,$$$
+Jewel Bako,40.72713,-73.98928,Japanese,$$$
+The River Café,40.703613,-73.994774,Contemporary,$$$$
+Bar Uchū,40.72191,-73.99003,Japanese,$$$$
+Café China,40.749973,-73.98228,Chinese,$$
+Kanoyama,40.73071,-73.98655,Japanese,$$$
+Contra,40.719917,-73.98922,Contemporary,$$$$
+Atomix,40.744408,-73.98292,Korean,$$$$
+Kyo Ya,40.7266,-73.98526,Japanese,$$$
+Kajitsu,40.72776,-73.98428,Japanese,$$$
+Agern,40.75234,-73.9775,Scandinavian,$$$$
+Caviar Russe,40.760685,-73.97355,Contemporary,$$$$
+Tuome,40.724194,-73.9828,Fusion,$$
+Tempura Matsui,40.74839,-73.97474,Japanese,$$$$
+Sushi Yasuda,40.75108,-73.97364,Japanese,$$$$
+Sushi Amane,40.75133,-73.971725,Japanese,$$$$
+Café Boulud,40.77439,-73.96414,French,$$$$
+Claro,40.677395,-73.98615,Mexican,$$
+Satsuki,40.801243,-73.95187,Japanese,$$$$
+Sushi Noz,40.77384,-73.958275,Japanese,$$$$
+Sushi Inoue,40.810448,-73.943726,Japanese,$$$$
+Meadowsweet,40.710354,-73.96317,Mediterranean,$$$
+Casa Enríque,40.743492,-73.95425,Mexican,$$
+Peter Luger,40.70986,-73.96263,Steakhouse,$$$$
+Oxomoco,40.730057,-73.95538,Mexican,$$$
+The Finch,40.68704,-73.96297,American,$$$
+Faro,40.707584,-73.923035,American,$$
+Senses,52.244583,21.005886,Modern cuisine,$$$$$
+atelier Amaro,52.21708,21.03768,Modern cuisine,$$$$
+Aniar,53.27112,-9.057078,Creative,
+Loam,53.27384,-9.044447,Creative,
+Wild Honey Inn,53.03151,-9.2911,Classic cuisine,
+Chestnut,51.562588,-9.460854,Modern cuisine,
+Mews,51.48285,-9.37234,Modern cuisine,
+Ichigo Ichie,51.898167,-8.479933,Japanese,
+Chapter One,53.354374,-6.263786,Modern cuisine,
+Greenhouse,53.340042,-6.258506,Modern cuisine,
+L'Ecrivain,53.33627,-6.24834,Modern cuisine,
+Campagne,52.6559,-7.2464285,Modern British,
+Heron & Grey,53.30143,-6.177574,Modern cuisine,
+Lady Helen,52.526096,-7.188277,Modern cuisine,
+House,51.94777,-7.7135396,Modern cuisine,
+Olympe,-22.96109,-43.20658,French,$$$$$
+Lasai,-22.95401,-43.19557,modern,$$$$$
+Oteque,-22.95747,-43.194424,modern,$$$$$
+Mee,-22.96764,-43.17925,Asian influences,$$$$$
+Cipriani,-22.96755,-43.17901,Italian,$$$$$
+Jun Sakamoto,-23.56318,-46.67737,Japanese,$$$$$
+Maní,-23.56621,-46.67974,creative,$$$$$
+Evvai,-23.567078,-46.679146,modern,$$$$$
+Picchi,-23.565063,-46.666767,Italian,$$$$$
+Kosushi,-23.58522,-46.6809,Japanese,$$$
+Ryo Gastronomia,-23.58132,-46.6767,Japanese,$$$$$
+Tangará Jean-Georges,-23.634005,-46.72428,modern,$$$$$
+Kinoshita,-23.59159,-46.67146,Japanese,$$$$$
+Kan Suke,-23.5684,-46.64936,Japanese,$$$$$
+Huto,-23.60882,-46.6598,Japanese,$$$$$
+Stay,37.513004,127.10257,French contemporary,$$$
+Lee Jong Kuk 104,37.592903,126.997284,Korean,$$$$
+Hansikgonggan,37.577705,126.98852,Korean,$$$
+Dining in Space,37.57761,126.98845,French contemporary,$$$
+Exquisine,37.521046,127.049736,Innovative,$$$
+Dosa,37.52445,127.04441,Innovative,$$$
+Joo Ok,37.52252,127.04396,Korean contemporary,$$$
+Balwoo Gongyang,37.57389,126.98318,Temple cuisine,$$
+Muoki,37.518963,127.04217,Innovative,$$$
+L'Amitié,37.522675,127.032646,French,$$$
+Yu Yuan,37.57045,126.97534,Chinese,$$$
+Bicena,37.5384,127.00135,Korean,$$$
+Mosu,37.536415,126.99934,Innovative,$$$$$
+Poom,37.54903,126.98341,Korean,$$$
+Soigné,37.49816,127.002,Innovative,$$$
+Table for Four,37.49769,126.99442,European contemporary,$$$
+Zero Complex,37.49417,126.9948,Innovative,$$$
+Jin Jin,37.55777,126.91324,Chinese,$
+Gotgan,37.52212,126.92022,Korean,$$$$
+Hill Street Tai Hwa Pork Noodle,1.3052,103.8624,Street Food,$
+Putien (Kitchener Road),1.30969,103.8573,Fujian,$
+Chef Kang's,1.304735,103.84955,Cantonese,$$$
+Garibaldi,1.296564,103.855,Italian,$
+Summer Pavilion,1.291284,103.8603,Cantonese,$$
+Shinji (Bras Basah Road),1.2959028,103.8539,Sushi,$$
+The Song of India,1.310767,103.8353,Indian,$
+Lei Garden,1.295228,103.8521,Cantonese,$
+Whitegrass,1.295452,103.8516,Australian,$$
+Jaan,1.293184,103.8529,French contemporary,$$$
+Labyrinth,1.2899688,103.8562,Innovative,$$
+Cut,1.2853268,103.8607,Steakhouse,$$$
+Alma,1.309123,103.834,European contemporary,$
+Béni,1.302379,103.8366,French contemporary,$$
+Crystal Jade Golden Palace,1.303244,103.8353,Chinese,$
+Imperial Treasure Fine Teochew Cuisine (Orchard),1.3032448,103.8349,Chinese,$
+Saint Pierre,1.285781,103.8538,French contemporary,$$
+Sushi Ichi,1.305105,103.8324,Sushi,$$$
+Sushi Kimura,1.3063719,103.829475,Sushi,$$$$
+Iggy's,1.305986,103.8294,European contemporary,$$$
+Braci,1.287212,103.84949,Italian contemporary,$$
+Jiang-Nan Chun,1.304937,103.8288,Cantonese,$$$
+Bacchanalia,1.2874758,103.8474,Innovative,$$
+Shinji (Tanglin Road),1.305821,103.8257,Sushi,$$$$
+Corner House,1.315121,103.8154,Innovative,$$
+Summer Palace,1.3043848,103.825,Cantonese,$
+Cheek by Jowl,1.281301,103.84849,Australian,$
+Nouri,1.28086,103.84713,Innovative,$
+Liao Fan Hong Kong Soya Sauce Chicken Rice & Noodle,1.28248,103.8439,Street Food,$
+Burnt Ends,1.280501,103.8418,Barbecue,$$
+Rhubarb,1.279368,103.843,French contemporary,$
+Meta,1.279372,103.8415,Innovative,$$
+Ma Cuisine,1.27826,103.842,French,$
+Candlenut,1.2797709,103.8402,Peranakan,$
+Bhoga,57.70618,11.9624,Creative,$$$
+Koka,57.698406,11.965365,Modern cuisine,$$$
+28+,57.69809,11.97377,Modern cuisine,$$$
+SK Mat & Människor,57.69688,11.98338,Modern cuisine,$$$
+Thörnströms Kök,57.69437,11.977609,Classic cuisine,$$$
+Upper House,57.69745,11.99021,Creative,$$$$
+Agrikultur,59.34777,18.05863,Modern cuisine,$$$$
+Sushi Sho,59.341286,18.049892,Japanese,$$$
+Volt,59.33867,18.079683,Creative,$$$
+Ekstedt,59.33674,18.07521,Meats and grills,$$$
+Operakällaren,59.329876,18.071363,Classic cuisine,$$$$
+Mathias Dahlgren-Matbaren,59.32935,18.07543,Modern cuisine,$$
+Aloë,59.2842,17.985748,Creative,$$$$
+PM & Vänner,56.87892,14.80387,Creative,$$$
+Bloom in the Park,55.59064,12.99794,Creative,$$
+SAV,55.53376,13.00537,Creative,$$$
+Golden Formosa,25.118216,121.53623,Taiwanese,$$
+Danny's Steakhouse,25.082657,121.552765,Steakhouse,$$
+L'Atelier de Joël Robuchon,25.039188,121.56771,French contemporary,$$$
+Kitcho,25.04429,121.55076,Sushi,$$$$
+Tien Hsiang Lo,25.062696,121.529976,Hang Zhou,$$
+Ya Ge,25.06625,121.52533,Cantonese,$$
+Da-Wan,25.043018,121.55019,Barbecue,$$$
+Sushi Nomura,25.03618,121.55465,Sushi,$$$
+logy,25.03561,121.55323,Asian contemporary,$$$$
+Ming Fu,25.06171,121.52399,Taiwanese,$$$
+Ken An Ho,25.034622,121.55281,Japanese,$$$$
+Sushi Ryu,25.055832,121.52724,Sushi,$$$$
+MUME,25.036266,121.54809,European contemporary,$$$
+Impromptu by Paul Lee,25.05429,121.524254,Innovative,$$$
+Longtail,25.023922,121.54841,Innovative,$$
+Mountain and Sea House,25.038046,121.531395,Taiwanese,$$
+Da San Yuan,25.042248,121.512215,Cantonese,$
+Tainan Tan Tsu Mien Seafood,25.03799,121.4984,Seafood,$$
+Suan Thip,13.926962,100.502144,Thai,$
+Upstairs at Mikkeller,13.727946,100.58844,Innovative,$$$$$
+Chim by Siam Wisdom,13.740706,100.56789,Thai,$$$
+R-Haan,13.731805,100.57972,Thai,$$$$
+Canvas,13.728886,100.580826,Innovative,$$$$
+Bo.lan,13.726389,100.57799,Thai,$$$$$
+Sra Bua by Kiin Kiin,13.754137,100.53451,Thai Contemporary,$$$
+Elements,13.742978,100.54798,French contemporary,$$$$
+Paste,13.744594,100.540565,Thai,$$$
+Ginza Sushi ichi,13.744069,100.54092,Sushi,$$$$
+Sorn,13.723242,100.56848,Southern Thai,$$$$$
+Savelberg,13.738216,100.54642,French contemporary,$$$
+Saneh Jaan,13.735739,100.54605,Thai,$$
+Gaa,13.737806,100.54275,Innovative,$$$$
+Methavalai Sorndaeng,13.756321,100.502045,Thai,$$
+Jay Fai,13.752614,100.50466,Street Food,$$
+Nahm,13.724357,100.53926,Thai,$$$
+J'AIME by Jean-Michel Lorain,13.718885,100.546326,French contemporary,$$$
+Saawaan,13.721809,100.53741,Thai Contemporary,$$$$
+Le Du,13.725005,100.52939,Thai,$$$$
+Ruean Panya,13.558403,100.28264,Thai,$$
+PRU,8.034298,98.2764,Innovative,$$$$$
+Blue Duck Tavern,38.905373,-77.05128,American,$$$
+Tail Up Goat,38.9235,-77.043274,Contemporary,$$
+Komi,38.910107,-77.03836,Mediterranean,$$$$
+Sushi Taro,38.909992,-77.03834,Japanese,$$$$
+Plume,38.906,-77.03671,European,$$$$
+Siren by RW,38.907776,-77.035446,Seafood,$$$
+Bresca,38.91584,-77.0321,Contemporary,$$
+The Dabney,38.906292,-77.024666,American,$$
+Métier,38.903503,-77.0218,Contemporary,$$$$
+Kinship,38.903282,-77.0218,Contemporary,$$$
+Fiola,38.89416,-77.02032,Italian,$$$$
+Masseria,38.909504,-76.99908,Italian,$$$
+Rose's Luxury,38.88064,-76.99515,Contemporary,$$
+Loch Bay,57.51487,-6.57114,Modern cuisine,
+Braidwoods,55.69474,-4.7425,Classic cuisine,
+Eipic,54.595898,-5.9322424,Modern cuisine,
+OX,54.59891,-5.92198,Modern British,
+The Peat Inn,56.27861,-2.8845797,Classic cuisine,
+Kitchin,55.976967,-3.172842,Modern cuisine,
+Martin Wishart,55.97552,-3.17019,Modern cuisine,
+Number One,55.95298,-3.18966,Modern cuisine,
+21212,55.95674,-3.18018,Creative,
+The Cellar,56.222126,-2.696321,Modern cuisine,
+Forest Side,54.46396,-3.0157998,Modern British,
+HRiSHi,54.35013,-2.91172,Modern cuisine,
+Rogan & Co,54.20074,-2.95464,Creative British,
+House of Tides,54.96758,-1.61127,Modern cuisine,
+Sosban & The Old Butchers,53.225925,-4.163006,Modern cuisine,
+Northcote,53.80933,-2.4476,Modern British,
+Yorke Arms,54.13435,-1.8183095,Modern cuisine,
+Fraiche,53.38183,-3.04307,Creative,
+White Swan,53.83916,-2.25097,Modern British,
+Tyddyn Llan,52.92405,-3.44329,Classic cuisine,
+Ynyshir,52.54476,-3.94491,Creative,
+Black Swan,54.21205,-1.1879199,Modern British,
+Simon Radley at Chester Grosvenor,53.19064,-2.88913,Modern cuisine,
+Star Inn at Harome,54.23101,-1.01023,Modern British,
+The Man Behind The Curtain,53.798286,-1.539937,Creative,
+The Checkers,52.55568,-3.13769,French,
+Pipe and Glass,53.8955,-0.53301,Modern British,
+Fischer's at Baslow Hall,53.25055,-1.6269798,Modern cuisine,
+Winteringham Fields,53.68778,-0.59013,Modern cuisine,
+Thomas Carr @ The Olive Room,51.209476,-4.118807,Seafood,
+Walnut Tree,51.84534,-2.95438,Modern British,
+Paul Ainsworth at No.6,50.541534,-4.9398518,Modern cuisine,
+Simpsons,52.46925,-1.9238801,Modern cuisine,
+Purnell's,52.48268,-1.9018,Modern cuisine,
+Adam's,52.47964,-1.900286,Modern cuisine,
+Outlaw's Fish Kitchen,50.59206,-4.832,Seafood,
+Carters of Moseley,52.44588,-1.88384,Modern British,
+Peel's,52.4259,-1.70536,Creative British,
+John's House,52.73295,-1.145851,Modern cuisine,
+The Whitebrook,51.759697,-2.686909,Modern British,
+James Sommerin,51.434387,-3.167951,Modern cuisine,
+Driftwood,50.1889,-4.97088,Modern cuisine,
+The Cross at Kenilworth,52.350315,-1.5801147,Classic cuisine,
+Masons Arms,50.99547,-3.67163,Classic French,
+Salt,52.18963,-1.7092043,Modern British,
+Le Champignon Sauvage,51.89146,-2.07912,Modern cuisine,
+Gidleigh Park,50.67658,-3.87354,Modern cuisine,
+Hambleton Hall,52.65737,-0.66812,Classic cuisine,
+wilks,51.46737,-2.6069899,Modern British,
+Bulrush,51.46278,-2.597758,Modern British,
+Casamia,51.447254,-2.5940728,Creative,
+Paco Tapas,51.44647,-2.59358,Spanish,
+Pony & Trap,51.34938,-2.5925994,Modern British,
+The Dining Room,51.58376,-2.14954,Asian influences,
+Bybrook,51.49382,-2.23212,Modern British,
+Restaurant Hywel Jones by Lucknam Park,51.45502,-2.25941,Modern British,
+Olive Tree,51.38707,-2.3627,Modern cuisine,
+Lympstone Manor,50.64069,-3.4186063,Modern cuisine,
+The Neptune,52.9511,0.50927,Modern cuisine,
+Elephant,50.45853,-3.52438,Modern British,
+Oxford Kitchen,51.776733,-1.264794,Modern British,
+Nut Tree,51.83618,-1.1499,Traditional British,
+Morston Hall,52.95473,0.98729,Modern British,
+Red Lion Freehouse,51.2736,-1.8007996,Classic cuisine,
+Blackbird,51.420887,-1.3493549,Classic cuisine,
+Woodspeen,51.415802,-1.353532,Modern cuisine,
+The Coach,51.571712,-0.7772678,Modern British,
+Crown,51.524807,-0.7915291,Regional cuisine,
+L'Ortolan,51.40833,-0.9542898,French,
+Hinds Head,51.51265,-0.69641,Traditional British,
+Black Rat,51.05796,-1.3069497,Modern cuisine,
+Matt Worswick at The Latymer,51.35764,-0.7086128,Modern cuisine,
+Coworth Park,51.40463,-0.616715,Modern cuisine,
+Tudor Room,51.41759,-0.545847,Modern cuisine,
+The Glasshouse,51.4771,-0.28574,Modern cuisine,
+La Trompette,51.49222,-0.25619,Modern British,
+Tim Allen's Flitch of Bacon,51.86747,0.404134,Modern British,
+River Café,51.48395,-0.22423,Italian,
+Kitchen W8,51.49918,-0.19692,Modern cuisine,
+Trishna,51.51834,-0.153031,Indian,
+Roganic,51.518314,-0.1520875,Creative British,
+Locanda Locatelli,51.51514,-0.15675,Italian,
+Texture,51.51488,-0.15664,Creative,
+Portland,51.519726,-0.142555,Modern cuisine,
+Harwood Arms,51.48291,-0.19651,Modern British,
+Pied à Terre,51.519,-0.13511,Creative,
+The Ninth,51.51875,-0.1350068,Mediterranean cuisine,
+Kai,51.50871,-0.15162,Chinese,
+Pollen Street Social,51.5133,-0.14234,Creative,
+Hakkasan Mayfair,51.51037,-0.14475,Chinese,
+The Square,51.51069,-0.14401,Creative French,
+Alyn Williams at The Westbury,51.51118,-0.14303,Modern cuisine,
+Benares,51.50973,-0.14494,Indian,
+Hakkasan Hanway Place,51.5171,-0.13144,Chinese,
+Social Eating House,51.51383,-0.13673,Modern cuisine,
+Galvin at Windows,51.50539,-0.15039,Modern cuisine,
+Murano,51.50707,-0.14722,Italian,
+Marcus,51.50171,-0.15614,Modern cuisine,
+Sabor,51.511368,-0.1396773,Spanish,
+Clock House,51.30044,-0.49287,Modern cuisine,
+Yauatcha Soho,51.51367,-0.1352,Chinese,
+Céleste,51.502422,-0.1522617,Creative French,
+Gymkhana,51.50854,-0.14154,Indian,
+Amaya,51.49912,-0.15731,Indian,
+Pétrus,51.49951,-0.15662,French,
+Veeraswamy,51.51008,-0.13809,Indian,
+Barrafina,51.51375,-0.1318,Spanish,
+Hide,51.506077,-0.144289,Modern British,
+Ritz Restaurant,51.50728,-0.14141,Modern British,
+Elystan Street,51.49124,-0.16724,Modern British,
+Seven Park Place,51.50623,-0.13998,Modern cuisine,
+Ikoyi,51.509212,-0.1334389,Creative,
+Aquavit,51.508713,-0.1334072,Scandinavian,
+Five Fields,51.49168,-0.16124,Modern cuisine,
+Dining Room at The Goring,51.49763,-0.14556,Traditional British,
+St John,51.52064,-0.10133,Traditional British,
+Quilon,51.49863,-0.13726,Indian,
+Club Gascon,51.51857,-0.10031,French,
+A. Wong,51.49318,-0.14128,Chinese,
+The Clove Club,51.52711,-0.07927,Modern cuisine,
+Leroy,51.524086,-0.0815337,Modern British,
+Angler,51.51894,-0.08625,Seafood,
+Brat,51.52427,-0.0767681,Traditional British,
+Lyle's,51.52378,-0.07704,Modern British,
+Galvin La Chapelle,51.52032,-0.0781,French,
+City Social,51.51521,-0.08431,Modern cuisine,
+La Dame de Pic,51.510372,-0.0788981,Modern French,
+Story,51.50268,-0.07774,Modern cuisine,
+Trinity,51.46336,-0.14148,Modern cuisine,
+Chez Bruce,51.44607,-0.16553,French,
+Sorrel,51.228825,-0.3346741,Modern British,
+Restaurant Tristan,51.062347,-0.326034,Modern British,
+Gravetye Manor,51.08932,-0.05691,Modern British,
+The Sportsman,51.34392,0.95885,Modern British,
+West House,51.11521,0.64215,Modern British,
+Fordwich Arms,51.295284,1.1261871,Modern cuisine,
+Samphire,49.18488,-2.1057,Modern cuisine,
+Bohemia,49.181225,-2.102417,Modern cuisine,
