@@ -1,0 +1,58 @@
+.heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.box {
+    position: absolute;
+    width: 655px;
+    height: 1500px;
+    left: 400px;
+    top: 120px;
+    background: #FFEBE2;
+    box-shadow: inset 0px 3px 13px rgba(86, 0, 0, 0.08);
+    border-radius: 12px;
+}
+
+.textMessages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 570px;
+    height: 512px;
+    left: 50px;
+    top: 35px;
+}
+
+.msg {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    width: 570px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.ques {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 550px;
+    height: 78px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
