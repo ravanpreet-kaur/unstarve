@@ -9,6 +9,8 @@ import background from "../images/background.png";
 import Log from '../pages/LoginPage.js'
 import { useState } from 'react';
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -31,7 +33,10 @@ export function LandingPage() {
         setPrice(e.target.value)
         console.log(price)
     }
-
+    const [active, setActive] = useState(false);
+    const handleClick = () => {
+    setActive(!active);
+    }
     return (
         <div className='LandingPage' style={{
             backgroundImage: `url(${background})`,
@@ -58,11 +63,14 @@ export function LandingPage() {
                         <div className='ques'>
                             How far do you want to travel?
                             <ButtonGroup size="small" variant="outlined" aria-label="outlined button group">
-                                <Button style={{ borderTopLeftRadius: 20, borderBottomLeftRadius: 20, color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Close-by'}>Close-by</Button>
-                                <Button style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Lil further'}>Lil further</Button>
-                                <Button style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Ready to travel'}>Ready to travel</Button>
-                                <Button style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Very Far'}>Very Far</Button>
-                                <Button style={{ borderTopRightRadius: 20, borderBottomRightRadius: 20, color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Earth'}>Earth</Button>
+                                <Button 
+                                onClick={handleClick}
+                                className={active ? "black-btn" : "white-btn"}
+                                style={{ borderTopLeftRadius: 20, borderBottomLeftRadius: 20, color: 'black', borderColor: 'black' }}  value={'Close-by'}>Close-by</Button>
+                                <Button  style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Lil further'}>Lil further</Button>
+                                <Button  style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Ready to travel'}>Ready to travel</Button>
+                                <Button  style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Very Far'}>Very Far</Button>
+                                <Button  style={{ borderTopRightRadius: 20, borderBottomRightRadius: 20, color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Earth'}>Earth</Button>
                             </ButtonGroup>
                         </div>
                         <div className='ques'>

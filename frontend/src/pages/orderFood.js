@@ -6,23 +6,23 @@ import ActionCard from '../components/card'
 import background from "../images/background.png";
 import MenuCard from '../components/menuCard';
 
-export function OrderFood() {
+export function OrderFood(props) {
     const data = [
         {
             food: 'pizza',
             price: 200
         },
         {
-            food: 'pizza',
-            price: 200
+            food: 'noodles',
+            price: 150
         },
         {
-            food: 'pizza',
-            price: 200
+            food: 'burger',
+            price: 240
         },
         {
-            food: 'pizza',
-            price: 200
+            food: 'french fries',
+            price: 180
         },
     ]
     return (
