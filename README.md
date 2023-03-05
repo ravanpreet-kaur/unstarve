@@ -1,11 +1,11 @@
 # Unstarve
 Unstarve is a web application developed for the Hackhound MLH hackathon that provides an AI-based food recommendation system. The application uses Node, Express, CockroachDB, Twilio, Cohere, Github, and Figma to provide a seamless food ordering experience for users.
 
-#Features
+# Features
 Unstarve comes with the following features:
 
 Users can sign up, log in, and log out of the application.
-Users can search for food based on their location, cuisine, and dietary preferences.
+Users can search for food based on their location, cuisine, and budget.
 Users can receive personalized food recommendations based on their previous orders, ratings, and preferences.
 Users can view the restaurant menu and add items to their cart.
 Users can customize their orders by adding or removing ingredients, specifying cooking instructions, and requesting special requests.
