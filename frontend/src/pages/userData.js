@@ -69,7 +69,7 @@ export function UserInfo() {
                         justifyContent: 'center',
                         alignItems: 'center',
                         fontSize: '30px',
-                        marginTop: '5px',
+                        marginTop: '30px',
 
                     }}
                 >
