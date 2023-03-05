@@ -1,11 +1,23 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import Typography from '@mui/material/Typography';
 import './style.css';
 import { Button, ButtonGroup } from '@mui/material';
 import Stack from '@mui/material/Stack';
 import ActionCard from '../components/card'
 import background from "../images/background.png";
-
+import {OrderFood} from "./orderFood"
 export function Restraunt() {
+    
+    function menu() {
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(
+        <React.StrictMode>
+            <OrderFood />
+         </React.StrictMode>
+);
+    }
+    
     const data = [
         {
             restrauntName: 'Indo Cafe',
@@ -79,7 +91,9 @@ export function Restraunt() {
                     <div className='msg' style={{ height: '42px', order: 1 }}>Here are some personalised suggestions for you: </div>
                     <div className='card-container' style={{order: 2 }}>
                         {data.map((i, index) => (
-                            <ActionCard restrauntName={i.restrauntName} distance={i.distance} price={i.price} />
+                            <span onClick={(menu)}>
+                                <ActionCard restrauntName={i.restrauntName} distance={i.distance} price={i.price} />
+                            </span>
                         ))}
                     </div>
                 </div>

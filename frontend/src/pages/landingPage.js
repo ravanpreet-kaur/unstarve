@@ -45,10 +45,10 @@ export function LandingPage() {
                 <Typography style={{ color: 'white' }} variant="h6" component="h6">
                     No more starving from indecisiveness
                 </Typography>
-                <Button variant="outlined" size="medium" style={{ borderRadius: 20, top:-70, left: 600, color: 'white', borderColor: 'white' }}
+                {/* <Button variant="outlined" size="medium" style={{ borderRadius: 20, top:-70, left: 600, color: 'white', borderColor: 'white' }}
                  onClick = {(Log)}>
                     Log back in
-                </Button>
+                </Button> */}
             </div>
             <div className='box'>
                 <div className='textMessages'>
@@ -104,7 +104,9 @@ export function LandingPage() {
                         <ActionCard restrauntName='testPhase' distance='5' price='600'/>
                     </div> */}
 
-                    <Button variant="contained" sx={{ borderRadius: 10, backgroundColor: '#FFCB68', width: 570, height: 40, color: 'black', border: 'solid', borderWidth: 1, fontWeight: 'bold', order: 3 }}>Give me suggestions</Button>
+                    <Button variant="contained" sx={{ borderRadius: 10, backgroundColor: '#FFCB68', width: 570, height: 40, color: 'black', border: 'solid', borderWidth: 1, fontWeight: 'bold', order: 3 }}
+                        onClick = {(Log)}
+                    >Give me suggestions</Button>
                     <Typography className="quote" style={{ color: 'white', fontStyle:'italic', order: 4}} variant="body1" component="body1">
                         “Nothing brings people together like good food”
                     </Typography>

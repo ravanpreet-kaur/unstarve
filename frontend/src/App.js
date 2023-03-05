@@ -6,7 +6,7 @@ import { UserInfo } from './pages/userData'
 
 function App() {
   return (
-    <UserInfo />
+    <LandingPage />
   );
 }
 
