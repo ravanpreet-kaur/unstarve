@@ -14,3 +14,5 @@ function sendMsg(phoneNo)
     from: '+15672921960', // From a valid Twilio number
     }).then((message) => console.log(message.sid));
 }
+
+module.exports = {sendMsg}

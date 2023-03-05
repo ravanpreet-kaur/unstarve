@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "csv": "^6.2.8",
-    "sequelize": "^6.29.0"
+    "sequelize": "^6.29.0",
+    "twilio": "^4.8.0"
   }
 }
