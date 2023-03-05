@@ -55,11 +55,12 @@ export function UserInfo() {
                 justifyContent: 'center',
                 alignItems: 'center',
                 flexDirection: 'column',
-                backgroundColor: '#C0847C',
+                backgroundColor: '#BB6B60',
                 padding: '10px',
                 boxShadow: "0 3px 10px rgb(0 0 0 / 0.2)",
                 borderRadius: '20px',
                 marginTop: '5px',
+                // opacity: '0.5'
 
             }}>
                 <span
@@ -72,8 +73,9 @@ export function UserInfo() {
 
                     }}
                 >
-                    Let us know you
+                    <b>Let's know you</b>
                 </span>
+                <br></br>
                 <br></br>
 
                 <form
@@ -84,14 +86,14 @@ export function UserInfo() {
                             marginTop: "10px"
                         }}
                     >
-                        Name <br></br>
+                        <b>Name</b> <br></br>
                     </span>
                     <input style={{
                         padding: '12px',
 
-                        borderRadius: '5px',
-                        border: "0.5px solid #4CAF50",
-                        fontFamily: "'Source Sans Pro', sans-serif",
+                        borderRadius: '12px',
+                        border: "0.5px solid #FFCB68",
+                        fontFamily: "'Manrope', sans-serif",
                         fontSize: "20px",
                         width: '500px',
                         marginTop: '5px',
@@ -101,19 +103,20 @@ export function UserInfo() {
                         value={username}
                     ></input>
                     <br></br>
+                    <br></br>
 
                     <span style={{
                         marginTop: "10px"
                     }}
                     >
-                        Age <br></br>
+                        <b>Age</b> <br></br>
                     </span>
                     <input style={{
                         padding: '12px',
-                        borderRadius: '5px',
+                        borderRadius: '12px',
                         marginTop: '5px',
-                        border: "0.5px solid #4CAF50",
-                        fontFamily: "'Source Sans Pro', sans-serif",
+                        border: "0.5px solid #FFCB68",
+                        fontFamily: "'Manrope', sans-serif",
                         fontSize: "20px",
                         width: '500px',
                         marginTop: '5px',
@@ -123,21 +126,23 @@ export function UserInfo() {
                         onChange={event => setAge(event.target.value)
                         }></input>
                     <br></br>
+                    <br></br>
 
                     <span
                         style={{
                             marginTop: "10px"
                         }}
                     >
-                        Phone Number <br></br>
+                        <b>Ph. Number</b> <br></br>
                     </span>
                     <input style={{
                         padding: '12px',
                         marginTop: '5px',
-                        borderRadius: '5px',
-                        border: "0.5px solid #4CAF50",
-                        fontFamily: "'Source Sans Pro', sans-serif",
+                        borderRadius: '12px',
+                        border: "0.5px solid #FFCB68",
+                        fontFamily: "'Manrope', sans-serif",
                         fontSize: "20px",
+                        fontWeight: 200,
                         width: '500px',
                         marginTop: '5px',
                     }} placeholder="Phone No. here" class="contact"
@@ -154,11 +159,11 @@ export function UserInfo() {
                             padding: '10px',
                             backgroundColor: 'white',
                             color: 'black',
-                            border: "2px solid #4CAF50",
+                            border: "3px solid #FFCB68",
                             width: '525px',
                             fontFamily: "'Manrope', sans-serif",
                             fontSize: "20px",
-                            borderRadius: "50px",
+                            borderRadius: "12px",
                             marginTop: "20px",
                             marginBottom: "20px",
 
