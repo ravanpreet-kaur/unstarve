@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { GoogleLogin } from '@react-oauth/google';
-import UserInfo from './userData'
+import {UserInfo} from './userData'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function Log(){
