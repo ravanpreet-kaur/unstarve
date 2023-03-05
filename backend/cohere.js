@@ -5,10 +5,13 @@ const cohere = require("cohere-ai");
         // Hit the `generate` endpoint on the `large` model
         const generateResponse = await cohere.classify({
             model: "large",
-            inputs: ["Vegetarian Grilled", "Cheesy Juicy", "1234"],
+            inputs: ["Vegetarian Grilled", "I want something cheesy and smoky to eat"],
             examples: [{text: "spicy", label: "Buffalo wings"}, {text: "juicy", label: "Buffalo wings"}, {text: "chicken", label: "Buffalo wings"}, {text: "Spicy", label: "Paneer Tikka"},
-            {text: "Vegetarian", label: "Paneer Tikka"},{text: "Grilled", label: "Paneer Tikka"},{text: "Cheesy", label: "Baked Pasta"},{text: "Comfort", label: "Baked Pasta"},
-            {text: "Juicy", label: "Pulled Chicken Burger"},{text: "Cheesy", label: "Pulled Chicken Burger"},{text: "Non Vegetarian", label: "Pulled Chicken Burger"}]
+            {text: "Vegetarian", label: "Paneer Tikka"},{text: "Grilled", label: "Paneer Tikka"},{text: "Cheesy", label: "Baked Pasta"},{text: "Comfort Food", label: "Baked Pasta"},
+            {text: "Juicy", label: "Pulled Chicken Burger"},{text: "Cheesy", label: "Pulled Chicken Burger"},{text: "Non Vegetarian", label: "Pulled Chicken Burger"},
+            {text: "Grilled", label: "Tandoori Chicken"},{text: "Spicy", label: "Tandoori Chicken"},{text: "Non-Vegetarian", label: "Tandoori Chicken"},
+            {text: "Comfort Food", label: "Fish and Chips"},{text: "Non-Vegetarian", label: "Fish and Chips"},{text: "Vegetarian", label: "Falafel Wrap"},
+            {text: "Spicy", label: "Falafel Wrap"}]
         });
         index = 0
         maxNum = generateResponse.body.classifications[0].confidence
@@ -26,13 +29,5 @@ const cohere = require("cohere-ai");
     catch(err){
         console.log(err)
     }
-    /*
-    {
-      statusCode: 200,
-      body: {
-        text: "Eldorado, the anointed monarchs of the ancient world and the ruling family were divided into three kingdoms, each of which was ruled by an individual leader."
-      } 
-    }
-    */
   })();
   

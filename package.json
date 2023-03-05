@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "cohere-ai": "^6.0.0",
     "csv": "^6.2.8",
     "sequelize": "^6.29.0"
   }
