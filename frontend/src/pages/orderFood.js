@@ -50,7 +50,23 @@ export function OrderFood() {
                     {data.map((i, index) => (
                         <>
                             <div className='foodItem' style={{ order: 4, height: '45px', flexDirection: 'row', justifyContent: 'space-between' }} >
-                                <img src={require('../images/balloon.jpg')} style={{ height: 40, borderRadius: 50 }} />
+                                <img src={require('../images/balloon.jpg')} style={{ height: 40, borderRadius: 40, alignSelf: 'center', left: 0}} />
+                                <Typography variant="body1">
+                                    {i.food}
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary" style={{ alignSelf: 'flex-end', textAlign: "center", }}>
+                                    &nbsp;Rs.{i.price}
+                                </Typography>
+                            </div>
+                        </>
+                    ))}
+
+                    <div className='msg' style={{ height: '70px', order: 5, width: '100px' }}>Full Menu <br /> Bestsellers</div>
+
+                    {data.map((i, index) => (
+                        <>
+                            <div className='foodItem' style={{ order: 6, height: '45px', flexDirection: 'row', justifyContent: 'space-between' }} >
+                                <img src={require('../images/balloon.jpg')} style={{ height: 40, borderRadius: 40, alignSelf: 'center', left: 0}} />
                                 <Typography variant="body1">
                                     {i.food}
                                 </Typography>

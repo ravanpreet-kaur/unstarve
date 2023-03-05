@@ -1,7 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import background from "../images/background.png";
 import { useState } from 'react';
+import {Restraunt} from './restraunt'
+function GetThere() {
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+    <React.StrictMode>
+        <Restraunt />
+    </React.StrictMode>
+    );
 
-
+}
 
 
 
@@ -153,6 +163,7 @@ export function UserInfo() {
                             marginBottom: "20px",
 
                         }}
+                        onClick = {(GetThere)}
                         type="submit"
                     >
                         Let go!
