@@ -14,6 +14,10 @@
     border-radius: 12px;
 }
 
+.box::-webkit-scrollbar {
+    display: none;
+  }
+
 .textMessages {
     display: flex;
     flex-direction: column;
@@ -60,4 +64,10 @@
 .quote{
     padding-left: 17%;
     padding-top: 20px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
 }
