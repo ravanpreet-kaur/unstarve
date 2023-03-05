@@ -1,18 +1,18 @@
-const accountSid = 'ACbf2a17c5effcd24c07a442790574839b'; // Your Account SID from www.twilio.com/console
-const authToken = '4233f07a44f84ad65709f828850df1c6'; // Your Auth Token from www.twilio.com/console
-const client = require('twilio')(accountSid, authToken);
+const accountSid = 'ACbf2a17c5effcd24c07a442790574839b';
+const authToken = '1f8084c228df37d1bc0d87fb7d63241d';
 
 
-sendMsg('+918822647991')
-
-function sendMsg(phoneNo)
+function twilioCall(name, bookingID, price)
 {
+    bodyString = "Hello " + name + ", Thanks for using unStarved!! Your total Bill for booking ID: " + bookingID + " is " + price + "Rs"
+    const client = require('twilio')(accountSid, authToken);
     client.messages
     .create({
-    body: 'Thanks for booking with unStarve. Your bookingID is {bookingID}',
-    to: phoneNo, // Text this number
-    from: '+15672921960', // From a valid Twilio number
-    }).then((message) => console.log(message.sid));
+        body: bodyString,
+        to: '+918822647991', // Text this number
+        from: '+15672921960', // From a valid Twilio number
+    })
+    .then((message) => console.log(message.sid));
 }
-
-module.exports = {sendMsg}
+module.exports = {twilioCall}
+twilioCall("Mandeep", "1234", 10000)
