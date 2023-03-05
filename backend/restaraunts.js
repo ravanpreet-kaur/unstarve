@@ -4,7 +4,8 @@ const { sequelize } = require("./conn");
 const Restaurants = sequelize.define('Restaurants' , {
     rid : {
         type : Sequelize.INTEGER,
-        allowNull : false
+        allowNull : false,
+        primaryKey : true
     },
     name : Sequelize.STRING,
     latitude : Sequelize.FLOAT,

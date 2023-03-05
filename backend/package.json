@@ -9,12 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
     "cohere-ai": "^6.0.0",
     "cors": "^2.8.5",
     "csv": "^6.2.8",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "nodemon": "^2.0.21",
     "sequelize": "^6.29.0",
     "sequelize-cockroachdb": "^6.0.5",
     "twilio": "^4.8.0"
