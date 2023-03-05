@@ -9,8 +9,8 @@ function twilioCall(name, bookingID, price)
     client.messages
     .create({
         body: bodyString,
-        to: '+918822647991', // Text this number
-        from: '+15672921960', // From a valid Twilio number
+        to: '+919815138659',
+        from: '+15672921960', 
     })
     .then((message) => console.log(message.sid));
 }
