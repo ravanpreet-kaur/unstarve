@@ -1,3 +1,4 @@
+
 const User = require("../user");
 
 
@@ -25,11 +26,11 @@ async function addUser(req, res) {
 }
 
 async function getUser(req, res) {
-  const { credential } = req.params;
+  const { credential } = req.params.id;
 
   try {
     // Find the user with the matching credential
-    const user = await User.findOne({ where: { credential } });
+    const user = await User.findOne({ where: { credential : req.params.id } });
 
     if (!user) {
       return res.status(404).json({ message: 'User not found' });

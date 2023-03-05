@@ -1,10 +1,16 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import Typography from '@mui/material/Typography';
 import './style.css';
 import { Button, ButtonGroup } from '@mui/material';
 import Stack from '@mui/material/Stack';
 import ActionCard from '../components/card'
 import background from "../images/background.png";
+import Log from '../pages/LoginPage.js'
 import { useState } from 'react';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
 
 export function LandingPage() {
     const [distance, setDistance] = useState('Close-by');
@@ -39,7 +45,10 @@ export function LandingPage() {
                 <Typography style={{ color: 'white' }} variant="h6" component="h6">
                     No more starving from indecisiveness
                 </Typography>
-                {/* <Button variant="outlined" size="medium" style={{ borderRadius: 20, top:-70, left: 600, color: 'white', borderColor: 'white' }}>Log back in</Button> */}
+                <Button variant="outlined" size="medium" style={{ borderRadius: 20, top:-70, left: 600, color: 'white', borderColor: 'white' }}
+                 onClick = {(Log)}>
+                    Log back in
+                </Button>
             </div>
             <div className='box'>
                 <div className='textMessages'>
@@ -101,6 +110,7 @@ export function LandingPage() {
                     </Typography>
                 </div>
             </div>
+            
         </div>
     );
 }

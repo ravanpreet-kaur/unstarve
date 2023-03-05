@@ -1,7 +1,12 @@
 {
   "dependencies": {
+<<<<<<< HEAD
+    "@react-oauth/google": "^0.8.0",
+=======
     "cohere-ai": "^6.0.0",
+>>>>>>> 222ae54b8262de1dd5c856b4214fc74cb0ddd5ef
     "csv": "^6.2.8",
-    "sequelize": "^6.29.0"
+    "sequelize": "^6.29.0",
+    "twilio": "^4.8.0"
   }
 }
