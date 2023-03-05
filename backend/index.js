@@ -1,4 +1,4 @@
-const { default: sequelize } = require('./conn');
+const { sequelize } = require('./conn');
 const express = require('express');
 const app = express()
 const port = process.env.PORT;
@@ -12,10 +12,9 @@ app.use(bodyParser.json())
 const { data } = require('./recommender');
 const routerRestaurant = require('./controller/restaurantHandler');
 const { getUser, addUser } = require('./controller/userHandler');
-const { createOrder } = require('./controller/orderHandler');
-const { getSuggestion } = require('./service/foodRec');
 const { NLP } = require('./helper/cohere');
 app.use(bodyParser.urlencoded({ extended: true }));
+app.get('/suggestion' , NLP)
 app.get('/user/get/:id' , getUser)
 app.post('/user/add' , addUser)
 app.use('/restaurants' , routerRestaurant)
