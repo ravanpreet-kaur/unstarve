@@ -1,13 +1,15 @@
+const { twilioCall } = require('../helper/twilio');
 const { Order } = require('../orders');
 
 async function createOrder(req, res) {
-  const { id , restaurant_name, price , customer_name ,  customer_phone , user_id } = req.body;
+  const { restaurant_name, price , customer_name ,  customer_phone , user_id } = req.body;
 
   try {
     const order = await Order.create({
-       id , restaurant_name, price , customer_name ,  customer_phone , user_id  
+       restaurant_name, price , customer_name ,  customer_phone , user_id  
     });
-
+    console.log(order)
+    twilioCall(customer_name , order.id , price , customer_phone)
     return res.status(201).json(order);
   } catch (err) {
     console.error(err);

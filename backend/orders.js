@@ -1,5 +1,5 @@
 const { Sequelize, DataTypes } = require('sequelize-cockroachdb');
-
+const { sequelize } = require('./conn');
 
 const Order = sequelize.define('Order', {
   id: {
