@@ -1,75 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 import Typography from '@mui/material/Typography';
 import './style.css';
 import { Button, ButtonGroup } from '@mui/material';
 import Stack from '@mui/material/Stack';
 import ActionCard from '../components/card'
 import background from "../images/background.png";
-import {OrderFood} from "./orderFood"
+import { useState , useEffect } from 'react';
 export function Restraunt() {
-    
-    function menu() {
-        const root = ReactDOM.createRoot(document.getElementById('root'));
-        root.render(
-        <React.StrictMode>
-            <OrderFood />
-         </React.StrictMode>
-);
+    const [rdata , setRdata] = useState(null)
+    const fetchRdata = async () => {
+    try {
+        const response = await fetch('localhost:8080/restaurants');
+        const data = await response.json();
+        setRdata(data);
+        console.log(data);
+    } catch (error) {
+        console.log(error);
     }
+    };
+
+    useEffect(() => {
+    fetchRdata();
+    }, [])
+
     
-    const data = [
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-        {
-            restrauntName: 'Indo Cafe',
-            distance: 50,
-            price: 2000
-        },
-    ]
     return (
         <div className='LandingPage' style={{
             backgroundImage: `url(${background})`,
@@ -90,10 +43,8 @@ export function Restraunt() {
                     <div className='msg' style={{ height: '64px', order: 0 }}>Okay, so you like a close-by restaurant with Indian cuisine which is moderately expensive.</div>
                     <div className='msg' style={{ height: '42px', order: 1 }}>Here are some personalised suggestions for you: </div>
                     <div className='card-container' style={{order: 2 }}>
-                        {data.map((i, index) => (
-                            <span onClick={(menu)}>
-                                <ActionCard restrauntName={i.restrauntName} distance={i.distance} price={i.price} />
-                            </span>
+                        {rdata.map((i, index) => (
+                            <ActionCard restrauntName={i.name} distance={i.cuisine} price={i.price} />
                         ))}
                     </div>
                 </div>

@@ -2,7 +2,7 @@ const cohere = require("cohere-ai");
 
 async function NLP(req , res){
     
-        cohere.init("Y1cprOQOpfWkbXd3WUA2cAs92dOpxxXWtSpJfxc3");
+        cohere.init(process.env.COHERE);
         try{
             const generateResponse = await cohere.classify({
                 model: "large",

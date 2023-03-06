@@ -1,5 +1,5 @@
-const accountSid = 'ACbf2a17c5effcd24c07a442790574839b';
-const authToken = '1f8084c228df37d1bc0d87fb7d63241d';
+const accountSid = process.env.TWILIO_SID;
+const authToken = process.env.TWILIO;
 
 
 function twilioCall(name, bookingID, price , ph_number)
@@ -10,7 +10,7 @@ function twilioCall(name, bookingID, price , ph_number)
     .create({
         body: bodyString,
         to: ph_number, // Text this number
-        from: '+15672921960', // From a valid Twilio number
+        from: process.env.ARSHDEEP_NUMBER, // From a valid Twilio number
     })
     .then((message) => console.log(message.sid));
 }

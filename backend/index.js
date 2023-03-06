@@ -13,7 +13,9 @@ const { data } = require('./recommender');
 const routerRestaurant = require('./controller/restaurantHandler');
 const { getUser, addUser } = require('./controller/userHandler');
 const { NLP } = require('./helper/cohere');
+const { createOrder } = require('./controller/orderHandler');
 app.use(bodyParser.urlencoded({ extended: true }));
+
 app.get('/suggestion' , NLP)
 app.get('/user/get/:id' , getUser)
 app.post('/user/add' , addUser)
