@@ -171,7 +171,7 @@ export function UserInfo() {
                         onClick = {(GetThere)}
                         type="submit"
                     >
-                        Let go!
+                        Let's go!
                     </button>
                 </form>
             </div>
