@@ -27,7 +27,7 @@ Unstarve is built using the following technologies:
 -   Github: A web-based platform for version control and collaboration.
 -   Figma: A web-based vector graphics editor and prototyping tool.
 
-## A glimpse at the app
+## A glimpse of the app
 ![image](https://user-images.githubusercontent.com/73191232/222939606-5dfb12cf-5490-43be-8833-6236ba4430dc.png)
 
 ![image](https://user-images.githubusercontent.com/73191232/223345167-0a706e3e-5427-468b-8368-0212482256cb.png)
