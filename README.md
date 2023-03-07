@@ -40,7 +40,7 @@ Unstarve is built using the following technologies:
 
 To run the Unstarve application on your local machine, follow the steps below:
 
-1.  Clone the repository: `git clone https://github.com/your-username/unstarve.git`
+1.  Clone the repository: `git clone https://github.com/ravanpreet-kaur/unstarve.git`
 2.  Navigate to the project directory: `cd unstarve`
 3.  Install the dependencies: `npm install`
 4.  Set up the environment variables by creating a `.env` file based on the `.env.example` file.
