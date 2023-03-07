@@ -30,9 +30,10 @@ Unstarve is built using the following technologies:
 ## A glimpse at the app
 ![image](https://user-images.githubusercontent.com/73191232/222939606-5dfb12cf-5490-43be-8833-6236ba4430dc.png)
 
-![image](https://user-images.githubusercontent.com/73191232/222939632-bcbc8a43-55d5-4991-a771-c05c93ec20fc.png)
+![image](https://user-images.githubusercontent.com/73191232/223345167-0a706e3e-5427-468b-8368-0212482256cb.png)
 
-![image](https://user-images.githubusercontent.com/73191232/222939669-bacc1635-3271-46c7-bae9-4a8fb147b6c3.png)
+![image](https://user-images.githubusercontent.com/73191232/223345368-0de4a4ac-afb6-423f-be96-d988b6da185b.png)
+
 
 
 ## Installation
