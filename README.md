@@ -50,7 +50,7 @@ To run the Unstarve application on your local machine, follow the steps below:
 
 If you would like to contribute to Unstarve, please follow these steps:
 
-1.  Fork the repository: [https://github.com/your-username/unstarve.git](https://github.com/your-username/unstarve.git)
+1.  Fork the repository: [https://github.com/ravanpreet-kaur/unstarve.git](https://github.com/ravanpreet-kaur/unstarve.git)
 2.  Clone the forked repository: `git clone https://github.com/your-username/unstarve.git`
 3.  Create a new branch for your feature: `git checkout -b feature/your-feature`
 4.  Make the necessary changes and commit them: `git commit -am 'Add some feature'`
