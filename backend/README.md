@@ -1,5 +1,6 @@
 
-This repository contains the backend codebase for Unstarve, a food delivery application. The backend is built using Node.js, Express.js, MongoDB, and Socket.IO.
+This repository contains the backend codebase for Unstarve
+. The backend is built using Node.js, Express.js and CockroachDB.
 
 ## Getting Started
 
@@ -12,7 +13,7 @@ Copy the .env.example file to a new file called .env and fill in the required en
 Start the server using npm start
 Note: Make sure you have Node and NPM installed on your machine before proceeding with the installation.
 
-#Usage
+## Usage
 Once the server is up and running, you can use the following API endpoints to interact with the backend:
 
 /api/restaurants - GET all restaurants
