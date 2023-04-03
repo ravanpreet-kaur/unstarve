@@ -2,8 +2,7 @@ const accountSid = process.env.TWILIO_SID;
 const authToken = process.env.TWILIO;
 
 
-function twilioCall(name, bookingID, price , ph_number)
-{
+function twilioCall(name, bookingID, price , ph_number){
     bodyString = "Hello " + name + ", Thanks for using unStarve!! Your total Bill for booking ID: " + bookingID + " is " + price + "Rs"
     const client = require('twilio')(accountSid, authToken);
     client.messages

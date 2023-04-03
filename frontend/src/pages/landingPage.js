@@ -8,6 +8,25 @@ import ActionCard from '../components/card'
 import background from "../images/background.png";
 import Log from '../pages/LoginPage.js'
 import { useState } from 'react';
+import { createTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      light: '#757ce8',
+      main: '#3f50b5',
+      dark: '#002884',
+      contrastText: '#fff',
+    },
+    secondary: {
+      light: '#ff7961',
+      main: '#BB6B60',
+      dark: '#ba000d',
+      contrastText: '#000',
+    },
+  },
+});
 
 
 
@@ -33,10 +52,14 @@ export function LandingPage() {
         setPrice(e.target.value)
         console.log(price)
     }
-    const [active, setActive] = useState(false);
+    
+
+    
+    const [flag, setFlag] = React.useState(true);
+
     const handleClick = () => {
-    setActive(!active);
-    }
+        setFlag(!flag);
+    };
     return (
         <div className='LandingPage' style={{
             backgroundImage: `url(${background})`,
@@ -55,6 +78,7 @@ export function LandingPage() {
                     Log back in
                 </Button> */}
             </div>
+            <ThemeProvider theme={theme}>
             <div className='box'>
                 <div className='textMessages'>
                     <div className='msg' style={{ height: '42px', order: 0 }}>Hey food aficionado 👋, what’s your craving for today!</div>
@@ -62,12 +86,16 @@ export function LandingPage() {
                     <div className='msg' style={{ height: '306px', order: 2 }}>
                         <div className='ques'>
                             How far do you want to travel?
-                            <ButtonGroup size="small" variant="outlined" aria-label="outlined button group">
-                                <Button 
+                            <ButtonGroup size="small" >
+                                <Button  
                                 onClick={handleClick}
-                                className={active ? "black-btn" : "white-btn"}
-                                style={{ borderTopLeftRadius: 20, borderBottomLeftRadius: 20, color: 'black', borderColor: 'black' }}  value={'Close-by'}>Close-by</Button>
-                                <Button  style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Lil further'}>Lil further</Button>
+                                color={flag ? "primary": "secondary"}
+                                variant = {flag ? "outlined":"contained"}
+                                aria-label={flag ? "contained button group":"contained button group"}
+                                style={{ borderTopLeftRadius: 20, borderBottomLeftRadius: 20, color: 'black', borderColor: 'black' }}  
+                                value={'Close-by'}>Close-by</Button>
+                                <Button  
+                                style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Lil further'}>Lil further</Button>
                                 <Button  style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Ready to travel'}>Ready to travel</Button>
                                 <Button  style={{ color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Very Far'}>Very Far</Button>
                                 <Button  style={{ borderTopRightRadius: 20, borderBottomRightRadius: 20, color: 'black', borderColor: 'black' }} onClick={returnDistance} value={'Earth'}>Earth</Button>
@@ -120,6 +148,7 @@ export function LandingPage() {
                     </Typography>
                 </div>
             </div>
+            </ThemeProvider>
             
         </div>
     );
