@@ -10,6 +10,8 @@ To get started with the backend code, follow these steps:
 3. Install the necessary dependencies using ```npm install```\
 4. Copy the .env.example file to a new file called .env and fill in the required environment variables\
 5. Start the server using npm start\
+
+
 Note: Make sure you have Node and NPM installed on your machine before proceeding with the installation.
 
 ## Usage
