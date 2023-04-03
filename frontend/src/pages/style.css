@@ -7,12 +7,16 @@
     position: absolute;
     width: 655px;
     height: 620px;
-    left: 400px;
     top: 120px;
     background: #BB6B60;
     box-shadow: inset 0px 3px 13px rgba(86, 0, 0, 0.08);
     border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-327.5px);
 }
+
 
 .box::-webkit-scrollbar {
     display: none;
@@ -28,7 +32,8 @@
     position: absolute;
     width: 570px;
     height: 512px;
-    left: 50px;
+    left: 50%;
+    transform: translateX(-285px);
     top: 35px;
 }
 
