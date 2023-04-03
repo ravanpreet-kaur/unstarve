@@ -5,11 +5,11 @@ This repository contains the backend codebase for Unstarve which is built using 
 
 To get started with the backend code, follow these steps:
 
-Clone this repository to your local machine using ``` git clone https://github.com/ravanpreet-kaur/unstarve.git ```\
-Navigate to the backend directory using ```cd backend ```\
-Install the necessary dependencies using ```npm install```\
-Copy the .env.example file to a new file called .env and fill in the required environment variables\
-Start the server using npm start\
+1. Clone this repository to your local machine using ``` git clone https://github.com/ravanpreet-kaur/unstarve.git ```\
+2. Navigate to the backend directory using ```cd backend ```\
+3. Install the necessary dependencies using ```npm install```\
+4. Copy the .env.example file to a new file called .env and fill in the required environment variables\
+5. Start the server using npm start\
 Note: Make sure you have Node and NPM installed on your machine before proceeding with the installation.
 
 ## Usage
