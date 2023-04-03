@@ -24,12 +24,15 @@ Note: Make sure you have Node and NPM installed on your machine before proceedin
 ## Usage
 Once the server is up and running, you can use the following API endpoints to interact with the backend:
 
-* */api/restaurants* - GET all restaurants
-* */api/restaurants/:id* - GET a specific restaurant by ID
-* */api/restaurants* - POST a new restaurant
-* */api/orders* - GET all orders
-* */api/orders/:id* - GET a specific order by ID
-* */api/users/:id* - GET a specific user by ID
+* */restaurants* - GET all restaurants
+* */restaurants/:id* - GET a specific restaurant by ID
+* */restaurants* - POST a new restaurant
+* */orders* - GET all orders
+* */orders/:id* - GET a specific order by ID
+* */user/:id* - GET a specific user by ID
+* */user/add* - Create a new user 
+* */suggestion/:prompt* - Generate recommendations based on the prompt provided by the user
+
 
 
 
