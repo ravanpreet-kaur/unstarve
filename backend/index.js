@@ -6,10 +6,8 @@ const host = '0.0.0.0';
 const cors = require('cors')
 app.use(cors())
 app.use(express.json())
-const Restaurants = require('./restaraunts')
-var bodyParser = require("body-parser");
+let bodyParser = require("body-parser");
 app.use(bodyParser.json())
-const { data } = require('./recommender');
 const routerRestaurant = require('./controller/restaurantHandler');
 const { getUser, addUser } = require('./controller/userHandler');
 const { NLP } = require('./helper/cohere');
