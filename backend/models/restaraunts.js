@@ -1,5 +1,5 @@
 const { Sequelize } = require("sequelize-cockroachdb");
-const { sequelize } = require("./conn");
+const { sequelize } = require("../conn");
 
 const Restaurants = sequelize.define('Restaurants' , {
     rid : {

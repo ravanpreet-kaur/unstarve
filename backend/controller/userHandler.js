@@ -1,5 +1,5 @@
 
-const User = require("../user");
+const User = require("../models/user");
 
 
 async function addUser(req, res) {

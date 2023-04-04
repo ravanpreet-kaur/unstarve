@@ -1,5 +1,5 @@
-const { Sequelize, DataTypes } = require('sequelize-cockroachdb');
-const { sequelize } = require('./conn');
+const {  DataTypes } = require('sequelize-cockroachdb');
+const { sequelize } = require('../conn');
 
 const Order = sequelize.define('Order', {
   id: {
@@ -30,7 +30,7 @@ const Order = sequelize.define('Order', {
 });
 
 Order.sync({ force: false }).then(() => {
-  console.log('Orders table created');
+  console.log('Orders table synced');
 });
 
 module.exports = { Order };

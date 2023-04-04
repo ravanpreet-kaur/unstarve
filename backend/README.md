@@ -1,5 +1,5 @@
 
-This repository contains the backend codebase for Unstarve which is built using Node.js, Express.js and CockroachDB.
+This repository contains the backend codebase for UnStarve which is built using Node.js, Express.js and CockroachDB.
 
 ## Getting Started
 
@@ -9,13 +9,13 @@ To get started with the backend code, follow these steps:
 2. *Navigate to the backend directory using* ```cd backend ```
 3. *Install the necessary dependencies using* ```npm install```
 4. *Copy the .env.example file to a new file called .env and fill in the required environment variables, mainly:*
-```
- DATABASE_URL -> The connection URL string to your CockroachDB instance 
- PORT -> The port on which your application will run
- COHERE -> Cohere API key
- TWILIO -> Twilio API key
- TWILIO_SID -> Twilio SID
-```
+    ```
+     DATABASE_URL -> The connection URL string to your CockroachDB instance 
+     PORT -> The port on which your application will run
+     COHERE -> Cohere API key
+     TWILIO -> Twilio API key
+     TWILIO_SID -> Twilio SID
+    ```
 5. *Start the server using* ```nodemon```
 
 

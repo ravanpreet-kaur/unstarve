@@ -1,5 +1,5 @@
 const { twilioCall } = require('../helper/twilio');
-const { Order } = require('../orders');
+const { Order } = require('../models/orders');
 
 async function createOrder(req, res) {
   const { restaurant_name, price , customer_name ,  customer_phone , user_id } = req.body;

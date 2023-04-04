@@ -1,6 +1,6 @@
 const fs = require("fs")
 const { parse } = require("csv-parse")
-const { Restaurants } = require("./restaraunts")
+const { Restaurants } = require("../models/restaraunts")
 
 fs.createReadStream("one-star-michelin-restaurants.csv")
   .pipe(parse({ delimiter: ",", from_line: 2 }))

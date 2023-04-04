@@ -1,4 +1,4 @@
-const { data } = require("../recommender");
+const { data } = require("./recommender");
 module.exports = function() {
     console.log(data)
 };

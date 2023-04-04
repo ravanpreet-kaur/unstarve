@@ -1,6 +1,6 @@
 const { DataTypes } = require('sequelize-cockroachdb');
 const bcrypt = require('bcrypt');
-const { sequelize } = require('./conn');
+const { sequelize } = require('../conn');
 
 
 const User = sequelize.define('User', {
@@ -43,6 +43,6 @@ const User = sequelize.define('User', {
 });
 
 // Create the table if it doesn't exist
-User.sync();
+User.sync().then(r => console.log("Users table synced"));
 
 module.exports = User;

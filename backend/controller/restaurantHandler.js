@@ -1,5 +1,5 @@
 const express = require('express')
-const { Restaurants } = require('../restaraunts')
+const { Restaurants } = require('../models/restaraunts')
 const routerRestaurant = express.Router()
 
 routerRestaurant.use((req, res, next) => {
